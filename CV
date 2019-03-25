@@ -1,0 +1,280 @@
+%
+%
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.72in,top=0.6in,right=0.72in,bottom=0.6in]{geometry}% Document margins
+\usepackage{marvosym,color,soul}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand\Omicron{O}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%... I need to add departmental scholarship
+%... I need to get more traveling to presentations
+%... List Presentations I've attended
+%...
+%...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\name{Thomas Devine} % Your name
+\address{} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+\address{(701)215-1947 \\ tdevine@cmu.edu} % Your phone number and email
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%    EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Carnegie Mellon University} \hfill {\em Expected 2023} 
+\\ Ph.D. in Economics 
+
+{\bf University of North Dakota} \hfill {\em 2015 -- May '18} 
+\\ B.S in Mathematics, Minor: Statistics
+\
+\\ B.A in Economics
+
+%{\bf Grand Forks Central High School} \hfill {\em 2011 --  2015} 
+%\\ Honors: First in class (of 202)
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%    WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research  and Relevant Work Experience}
+%
+ \begin{rSubsection}{CNA Financial}{Summer 2018}{Long Term Care - Finance and Reserving, Actuarial Intern}{Chicago, IL}
+  \item Converted a monthly 4-step process in SAS that estimates aggregate counts for incurred but not reported claims and terminated but not reported claims to Alteryx for group and individual polices; this was my primary project and I was able to develop flat files and external R programs to input into Alteryx to complete the project ahead of deadline
+  \item Completed a SAS to R conversion for a monthly close process; this was an unforeseen project due to external consultants not finishing the conversion
+ \end{rSubsection}
+ 
+%------------------------------------------------
+
+ \begin{rSubsection}{Carnegie Mellon University}{\em May 2015 -- July 2017}{Research Assistant in Financial Math to Professor David Handron}{\em Pittsburgh, PA}
+    \item Comparison of n-period binomial and trinomial asset pricing models\vspace{3pt}
+    \item Pricing put options, working with risk-neutral probabilities and delta hedging\vspace{3pt}
+    \item Web-scraped 5 put option prices into our gradient descent algorithm for each\\ stock on the DJIA and compared the efficiency of random sets of 15 stocks\\ to determine the ratios of the SSE 
+ \end{rSubsection}
+ 
+ %------------------------------------------------
+ 
+ \begin{rSubsection}{University of North Dakota}{\em Jan 2017 -- May 2018}{Research Assistant to Professor Michael Minnotte}{\em Grand Forks, ND}
+      \item I used linear programming with the simplex method which extended to a simulation \\ study on the QR coefficients with the simplex method in Spring 2018 by illustrating key \\ differences in data that follows normal or heavy tailed distributions\\ and with or without heteroskedasticity for through OLS and QR approaches
+     \item I demonstrated a simplex method approach to maximizing a linear objective function \\ with respect to linear constraints via the tableaux method
+     \item Gained experience with nonparametric statistics using kernel density estimation.\\ I worked with small data sets, applications, and performed proof work on the\\ expectation and bias of the kernel, then I presented this work to a non-math audience\\ (see the Papers and Presentations section for more details)
+ \end{rSubsection}
+
+%------------------------------------------------
+
+ \begin{rSubsection}{University of North Dakota}{\em Jan 2016 -- Dec 2016}{Research Assistant to Professor Ryan Zerr}{\em Grand Forks, ND}
+      \item Part of the US MASTER and the McNair Program
+      \item Analyzed the Ducci map of matrix sequences and coded a calculator in Java to \\determine whether a given number is a Ducci number\vspace{3pt}
+ \end{rSubsection}
+%------------------------------------------------
+ 
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\pagebreak
+\begin{rSection}{Papers and Presentations} \itemsep -2pt
+ \begin{rSubsection}{Carnegie Mellon University }{Summer 2017}{Summer Undergraduate Applied Math Institute}{Pittsburgh, PA}
+  \item T. Devine, M. Ellis, D. Handron, B. Mariscal, "A comparison of n-period binomial and\\ trinomial models." \textit{In progress}. \textcolor{blue}{www.overleaf.com/read/zyxvpcwdwkwx}
+  \item I presented the above paper to Carnegie Mellon University's interested faculty and \\staff, as well as members of the SUAMI REU with my colleagues 
+ \end{rSubsection}
+ 
+ 
+ %-------------------------------------
+ 
+  \begin{rSubsection}{University of North Dakota}{Spring 2017}{McNair Scholars Research Presentations}{Grand Forks, ND}
+   \item Studied kernel density estimation with Professor Michael Minnotte 
+   \item Presented my research to Dr. Minnotte (weekly) and ended the research with\\ a presentation to a largely non-mathematical audience at the McNair end-of-year\\ research seminar
+   \item The presentation can be seen at: \textcolor{blue}{www.youtube.com/watch?v=TE4BCsauiTA}
+  \end{rSubsection}
+  
+%-------------------------------------
+  
+  \begin{rSubsection}{University of North Dakota}{Spring 2017}{US MASTER program}{Grand Forks, ND}
+   \item I presented the research I was doing with Professor Ryan Zerr on the Ducci map of          \\matrix sequences to fellow students and faculty in the US MASTER program
+   \item NSF funded
+  \end{rSubsection}
+  
+\end{rSection}
+%-----------------------------------------------------------------------------------
+ \begin{rSection}{Academic Achievements} \itemsep -2pt
+ \begin{rSubsection}{Research Programs }{}{}
+
+  \item Ronald E. McNair Post-Baccalaureate Achievement Program (TRIO) \hspace{51pt} \textit{Jan 2016 -- May 2018}
+  \item US MASTER program (NSF funded) \hspace{204pt} \textit{Jan 2016 -- May 2018}
+  \item Carnegie Mellon University SUAMI REU \hspace{187pt} \textit{May 2016 -- June 2017}
+\end{rSubsection}
+
+%-----------------------------
+
+  \itab{\textbf{Scholarships}} \tab{}  \tab{\textbf{}}
+  \\ \itab{UND Presidential Scholarship }             \tab{}  \tab{Kiwanis Scholarship} 
+  \\ \itab{Grand Forks Community Foundation Scholarship }    \tab{}  \tab{MWE Scholarship (\textit{local})}
+  \\ \itab{Mason's Scholarship, Acacia Lodge No. 4, A.F. \& A.M } \tab{}  \tab{Lee and DeAnn Christanson (\textit{Departmental})}  \\ 
+%-----------------------------
+
+ \begin{rSubsection}{Recognitions }{\em Summer 2015 -- May 2018}{}{UND}
+  \item Magna Cum Laude (UND)
+  \item Invited speaker at UND's Phi Beta Kappa Induction ceremony
+  \item Dean's List, top 15\% of their class in their respective college
+  \item President's Honor Roll, maintaining 3.8 GPA or higher
+  \item 4$^{th}$ Class D, Poetry, ND state fair 2015
+
+  
+ \end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+   
+\begin{rSection}{Conferences and Workshops}
+ \begin{rSubsection}{SIAM }{\em July 2017 -- Present}{Attendee}{Pittsburgh, PA}
+  \item Attended the SIAM Conference on Control and Its Applications (CT17), July 10-12.\\ the SIAM Workshop on Parameter Space Dimension Reduction (DR17), July 9-10,\\ and the SIAM Workshop on Network Science (NS17), July 13-14.
+ \end{rSubsection} 
+
+ %
+ \begin{rSubsection}{McNair Scholars Workshops }{\em }{}{UND}
+  \item Every Saturday, I partipated in a 2 hour GRE prepatory class with English faculty and \\Dr. Kingsbury of the TRIO program
+  \item Financial Aid presented by member of the financial aid department, fall 2016
+  \item Graduate school process presented by faculty and former McNair Scholars, spring 2017
+ \end{rSubsection}
+ %
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Keystone Courses}
+%\itab{\textbf{Core}} \tab{}  \tab{\textbf{Other}} 
+%\\ \itab{Statistical Theory I \& II}             \tab{}           \tab{Applied Statistical Methods} 
+%\\ \itab{Real Analysis }                         \tab{}           \tab{Computer Science I,II (Java)}
+%\\ \itab{Probability Theory}                     \tab{}           \tab{Business Statistics} 
+%\\ \itab{Linear Algebra}                         \tab{}           \tab{Calculus I, II, \& III}
+%\\ \itab{Capstone}                                  \tab{}           \tab{Intermediate Microeconomics}
+%\\ \itab{Linear Statistical Models$^0$} \tab{} \tab{Empirical Methods in Economics I \& II$^0$}
+%\end{rSection}
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Leadership positions, Extracurriculars, and volunteering}
+ 
+%%%%%%%
+ 
+ \begin{rSubsection}{\large{Homeless Youth Mentor}}{\em May 2015 -- Present}{To Unaccompanied Homeless Youth}{}
+  \item As of May 14th, 2018, I have been invited to represent the homeless youth of North Dakota through a state advisory committee---a voice for youth since I was once homeless.
+  \item Provide insight into mentoring \& life skills advice, and general guidance to kids who want to succeed with an underprivileged background
+ \end{rSubsection}
+ 
+%%%%%%%
+ 
+ \begin{rSubsection}{Red Cross Club }{\em Jan 2016 -- May 2018}{Member}{UND}
+  \item Participated in blood drives, involvement activities and more
+ \end{rSubsection}
+ 
+%%%%%%
+
+ \begin{rSubsection}{Math Club }{\em Jan 2016 -- May 2018}{Member}{UND}
+  \item Putnam exam preparation and participant in Dec 2016
+  \item MAA NCS team competition participant \textit{Nov. 11, 2017}
+  \end{rSubsection}
+  
+ 
+%%%%%%
+
+\begin{rSubsection}{Actuarial Science Club}{\em Jan 2016 -- May 2018}{President, previous Treasurer}{UND}
+ \item Organized recruitment efforts, presentations to interested students in classrooms\\ and fairs, coordinated on-site visit with ND BCBS in Fargo, ND, and lead weekly\\ study groups for the Probability Exam for the SOA
+\end{rSubsection}
+
+%%%%%%%
+ 
+ \begin{rSubsection}{TRIO tutoring}{\em Jan 2016 -- May 2018}{in Math, Stats, Econ, and English}{}
+  \item I tutor Mathematics, Statistics, and Economics courses in pre-algebra, algebra, \\pre-calculus, calculus I, II, \& III, Linear Algebra, Theory of Probability, Applied\\ Statistical Methods, Statistical Theory I \& II, Business Statistics, Microeconomics, \\and Computer Science (Java)
+ \end{rSubsection}
+ 
+%%%%%%%
+  
+ \begin{rSubsection}{Chess Club}{\em May 2016 -- May 2018}{President}{UND}
+  \item Organized weekly chess meetings, lead recruitment campaigns across campus via \\ fairs and fliers, facilitated an annual chess tournament, organized inter-club \\(recreational) competitions between UND and other universities, and volunteering to\\ lecture chess theory at local fraternities for cultural nights
+ \end{rSubsection}
+ 
+%%%%%%
+ 
+ \begin{rSubsection}{Table Tennis Club }{\em Oct 2016 -- May 2018}{Treasurer}{UND}
+  \item Calculated budget and expenditures ($\$ 200$) as well as assisted in recruiting efforts
+  \item Founded this student organization with another friend and member because\\ we saw a large fan-base of table tennis and wanted to organize tournaments
+ \end{rSubsection} 
+
+%%%%%
+
+ \begin{rSubsection}{Omicron Delta Epsilon, $\Omicron\Delta\mathcal{E}$ }{\em April 2017 -- Present}{Member}{UND}
+  \item Member of the International Honor Society of Economics
+ \end{rSubsection}
+ 
+\begin{rSubsection}{Phi Beta Kappa Honor Society, $\Phi\beta\mathcal{K}$}{\em March 2018 -- Present}{Member}{}
+  \item  Member of the oldest honor society for the Colleges Arts and Sciences
+  \item I had the honor to give the class of 2018 induction speech 
+  
+\end{rSubsection}
+ 
+ %-----------------------------------------------------
+%$\footnotetext{Indicates courses that will be taken in Spring 2018}$
+%%%%%
+
+ \begin{rSubsection}{SIAM }{\em July 2017 -- Present}{Member}{}
+  \item  Member of the Society of Industrial and Applied Mathematics 
+ \end{rSubsection}
+%
+%
+ \begin{rSubsection}{Econometric Society }{\em March 2019 -- Present}{Member}{}
+  \item  Member of the Society of Industrial and Applied Mathematics 
+ \end{rSubsection}
+%
+%
+   \begin{rSubsection}{Midwest Economic Association }{\em October 2017 -- Present}{Member}{}
+  \item Member
+ \end{rSubsection} 
+%
+%
+ \begin{rSubsection}{Political Organization }{\em Aug 2017 -- May 2018}{Vice-President }{Local Chapter}
+  \item Co-lead a recruitment drive for Hurricane Harvey ($\$ 5,000$ where we purchased\\ bottled water and other basic amenities and shipped them down to Houston, TX
+ \end{rSubsection}
+%
+%
+ \begin{rSubsection}{Red River Valley Junior Rescue}{\em Jan 2013 -- Spring 2016}{Water Safety instructor for kids}{YMCA}
+  \item Taught water safety, first aid, first response to young children at the YMCA
+ \end{rSubsection}
+ \end{rSection}
+%----------------------------------------------------------------------------------------
+%    TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Analytics Skills and Qualifications}
+ \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+   {Actuarial Exams}       &  P/1 passed 01/2017 \vspace{3pt} \\ 
+   {Programming Languages} &  Java, R, Python, C, \LaTeX \vspace{3pt} \\ 
+   {Software \& Tools}     &  Stata, \textit{All} Microsoft Suite, \textsc{Spss},  Minitab\vspace{3pt} \\
+   {Functional Usage}      &  Inferential Statistics, Linear and quantile regression\\
+   {}                      &  analysis, kernel density estimation, and more                                 
+ \end{tabular}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Other Work Experience} \itemsep -3pt
+    \begin{rSubsection}{Tutor}{\em Nov 2015 -- Present}{Independent }{Grand Forks, ND}
+         \item I tutor Mathematics, Statistics, and Economics courses in pre-algebra, algebra,\\ pre-calculus, calculus I, II, \& III, Linear Algebra, Theory of Probability, Applied\\ Statistical Methods, Statistical Theory I \& II, Business Statistics, and Microeconomics
+     \end{rSubsection}
+    
+ %-------------------------------------
+
+    \begin{rSubsection}{Library Assistant }{\em Jan 2016 -- Present}{UND School of Medicine \& Health Sciences }{Grand Forks, ND}
+         \item Distributed study materials for the students in the School of Medicine and Health \\Science, reservation of study rooms, management of student supplies, reorganization \\during a transitory phase to a new location, and cataloged Master's Theses for our \\online 
+        database
+     \end{rSubsection}
+ \end{rSection}
+ 
+ %----------------------------------------------------------------------------------------
+ 
+ \begin{rSection}{References} \itemsep -3pt
+    Available upon request
+ \end{rSection}
+\end{document}
