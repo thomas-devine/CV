@@ -9,16 +9,13 @@
 \newcommand\Omicron{O}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%... I need to add departmental scholarship
-%... I need to get more traveling to presentations
-%... List Presentations I've attended
-%...
+%...I need to add X to my resume
 %...
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \name{Thomas Devine} % Your name
 \address{} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
-\address{(701)215-1947 \\ tdevine@cmu.edu} % Your phone number and email
+\address{(...).......... \\ .......@....edu} % Your phone number and email
 
 \begin{document}
 %----------------------------------------------------------------------------------------
@@ -34,8 +31,6 @@
 \
 \\ B.A in Economics
 
-%{\bf Grand Forks Central High School} \hfill {\em 2011 --  2015} 
-%\\ Honors: First in class (of 202)
 \end{rSection}
 %----------------------------------------------------------------------------------------
 %    WORK EXPERIENCE SECTION
@@ -49,7 +44,7 @@
  
 %------------------------------------------------
 
- \begin{rSubsection}{Carnegie Mellon University}{\em May 2015 -- July 2017}{Research Assistant in Financial Math to Professor David Handron}{\em Pittsburgh, PA}
+ \begin{rSubsection}{Carnegie Mellon University}{\em May 2015 -- July 2017}{Research Assistant in ........... Math to Professor .................}{\em Pittsburgh, PA}
     \item Comparison of n-period binomial and trinomial asset pricing models\vspace{3pt}
     \item Pricing put options, working with risk-neutral probabilities and delta hedging\vspace{3pt}
     \item Web-scraped 5 put option prices into our gradient descent algorithm for each\\ stock on the DJIA and compared the efficiency of random sets of 15 stocks\\ to determine the ratios of the SSE 
@@ -57,17 +52,17 @@
  
  %------------------------------------------------
  
- \begin{rSubsection}{University of North Dakota}{\em Jan 2017 -- May 2018}{Research Assistant to Professor Michael Minnotte}{\em Grand Forks, ND}
-      \item I used linear programming with the simplex method which extended to a simulation \\ study on the QR coefficients with the simplex method in Spring 2018 by illustrating key \\ differences in data that follows normal or heavy tailed distributions\\ and with or without heteroskedasticity for through OLS and QR approaches
-     \item I demonstrated a simplex method approach to maximizing a linear objective function \\ with respect to linear constraints via the tableaux method
+ \begin{rSubsection}{University of North Dakota}{\em Jan 2017 -- May 2018}{Research Assistant to Professor}{\em Grand Forks, ND}
+     \item I used linear programming with the simplex method which extended to a simulation \\ study on the QR coefficients with the simplex method in Spring 2018 by illustrating key \\ differences in data that follows normal or heavy tailed distributions\\ and with or without heteroskedasticity for through OLS and QR approaches
+     \item I demonstrated ...
      \item Gained experience with nonparametric statistics using kernel density estimation.\\ I worked with small data sets, applications, and performed proof work on the\\ expectation and bias of the kernel, then I presented this work to a non-math audience\\ (see the Papers and Presentations section for more details)
  \end{rSubsection}
 
 %------------------------------------------------
 
- \begin{rSubsection}{University of North Dakota}{\em Jan 2016 -- Dec 2016}{Research Assistant to Professor Ryan Zerr}{\em Grand Forks, ND}
+ \begin{rSubsection}{University of North Dakota}{\em Jan 2016 -- Dec 2016}{Research Assistant to Professor}{\em Grand Forks, ND}
       \item Part of the US MASTER and the McNair Program
-      \item Analyzed the Ducci map of matrix sequences and coded a calculator in Java to \\determine whether a given number is a Ducci number\vspace{3pt}
+      \item Analyzed the Ducci map of matrix sequences ............ number\vspace{3pt}
  \end{rSubsection}
 %------------------------------------------------
  
@@ -103,8 +98,8 @@
  \begin{rSubsection}{Research Programs }{}{}
 
   \item Ronald E. McNair Post-Baccalaureate Achievement Program (TRIO) \hspace{51pt} \textit{Jan 2016 -- May 2018}
-  \item US MASTER program (NSF funded) \hspace{204pt} \textit{Jan 2016 -- May 2018}
-  \item Carnegie Mellon University SUAMI REU \hspace{187pt} \textit{May 2016 -- June 2017}
+  \item ......... program (NSF funded) \hspace{204pt} \textit{Jan 2016 -- May 2018}
+  \item Carnegie Mellon University ........ REU \hspace{187pt} \textit{May 2016 -- June 2017}
 \end{rSubsection}
 
 %-----------------------------
@@ -135,7 +130,7 @@
 
  %
  \begin{rSubsection}{McNair Scholars Workshops }{\em }{}{UND}
-  \item Every Saturday, I partipated in a 2 hour GRE prepatory class with English faculty and \\Dr. Kingsbury of the TRIO program
+  \item Every Saturday, I partipated in a 2 hour GRE prepatory class with English faculty and \\Dr. ......... of the TRIO program
   \item Financial Aid presented by member of the financial aid department, fall 2016
   \item Graduate school process presented by faculty and former McNair Scholars, spring 2017
  \end{rSubsection}
